@@ -8,8 +8,7 @@ width:763px;
 }}  
 @media (min-width: 992px) and (max-width:1199.98px){
 .text_image img{
-width:987px;}
-p{
-font-color:red;
+width:987px;
 }
 }
+p{font-color:red;}
