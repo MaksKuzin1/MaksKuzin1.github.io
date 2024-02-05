@@ -8,5 +8,8 @@ width:763px;
 }}  
 @media (min-width: 992px) and (max-width:1199.98px){
 .text_image img{
-width:987px;
-}}
+width:987px;}
+h1{
+font-color:red;
+}
+}
