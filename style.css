@@ -1,6 +1,3 @@
-.text_image img{
-  max-width:100%;
-}
 @media (min-width: 320px) and (max-width:768px){
 .text_image img{
 width:315px;
