@@ -1,8 +1,19 @@
 .text_image img{
   max-width:100%;
 }
-@media (min-width: 992px) and (max-width: 1199.98px){
+@media (min-width: 320px) and (max-width:559px){
 .text_image img{
-width:990px;
-
+width:315px;
+}
+@media (min-width: 560px) and (max-width:767px){
+.text_image img{
+width:555px;
+}
+@media (min-width: 768px) and (max-width:991px){
+.text_image img{
+width:763px;
+}  
+@media (min-width: 992px) and (max-width:1199.98px){
+.text_image img{
+width:987px;
 }
