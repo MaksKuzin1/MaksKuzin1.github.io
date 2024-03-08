@@ -2,4 +2,18 @@ a{
    color:blue;
    text-decoration:none;
 }
-#iii{color:darkblue;}
+#iii{
+     color:darkblue
+}
+#table1{
+    border-radius: 8%;
+}
+#kargl{
+    margin: 1rem 0 0 ;
+    border-radius:3%;
+    box-sizing: border-box;
+}
+#topmenu {
+    font-size: 1.2rem;
+    list-style-type:none;
+}
