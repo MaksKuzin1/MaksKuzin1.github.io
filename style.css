@@ -46,6 +46,7 @@ a.menu:hover{
     font-size: 1.2rem;
     list-style-type:none;
     display: flex;
+    padding-left:25px;
 }
 .sss{
     background-color:yellowgreen ;
