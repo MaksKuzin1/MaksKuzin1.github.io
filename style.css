@@ -23,7 +23,7 @@ a.menu:hover{
     box-shadow:5px 2px 2px blue;
 }
 .lim{
-    margin-right: 15px;
+    margin-right: 14px;
 }
 #pohta{
      color:darkblue
@@ -49,7 +49,7 @@ a.menu:hover{
     font-size: 1.2rem;
     list-style-type:none;
     display: flex;
-    padding-left:10px;
+    padding-left:14px;
 }
 .sss{
     background-color:yellowgreen ;
