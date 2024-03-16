@@ -23,7 +23,7 @@ a.menu:hover{
     box-shadow:5px 2px 2px blue;
 }
 .lim{
-    margin-right: 14px;
+    margin-right: 12px;
 }
 #pohta{
      color:darkblue
@@ -36,28 +36,23 @@ a.menu:hover{
     margin-bottom:5px ;    
 }
 .p{
-    padding:9px;
-    display:inline;
-}
-#kargl{
-    width: 410px;
-    margin: 0;
-    border-radius:8px;
-    box-sizing: border-box;
+    padding-left: 9px;
+    display: inline;
 }
 #topmenu {
     font-size: 1.2rem;
     list-style-type:none;
     display: flex;
-    padding-left:14px;
+    padding-left:16px;
 }
 .sss{
     background-color:yellowgreen ;
-    width: 300px;
+    width: 280px;
     border-radius: 15px;
     padding: 10px;
     font-size: 22px;
     margin-bottom: 5px;
+    box-shadow: 5px 2px 2px #0a761a;
 }
 }
               @media (min-width:768px){
