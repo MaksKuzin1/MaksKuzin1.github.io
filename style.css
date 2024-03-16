@@ -35,6 +35,10 @@ a.menu:hover{
     padding: 10px;
     margin-bottom:5px ;    
 }
+.p{
+    padding:9px;
+    display:inline;
+}
 #kargl{
     width: 410px;
     margin: 0;
