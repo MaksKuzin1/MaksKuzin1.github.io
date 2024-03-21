@@ -1,6 +1,7 @@
              @media (min-width:100px){
 body {
-    background: #f2f2f2;
+    background: #3a3a3a;
+    color: white;
     margin: 0;
 }
 #angl{
@@ -13,7 +14,7 @@ a.menu{
     color:blue;
     text-decoration:none;
 }
-a.menu:hover{
+a:hover{
     color: white;
 }
 .menudiv{
@@ -26,10 +27,15 @@ a.menu:hover{
     margin-right: 12px;
 }
 #pohta{
-     color:darkblue
+    width: 250px;
+    color:blue;
+    background-color: #40a1ff;
+    border-radius: 12px;
+    padding:  7px 12px;    
+    box-shadow:5px 2px 2px blue;
 }
 #text1{
-    background:#ffffff;
+    background:#ffffff99;
     border-radius: 30px;
     width: 390px;
     padding: 10px;
@@ -46,6 +52,7 @@ a.menu:hover{
     padding-left:16px;
 }
 .sss{
+    color: black ;
     background-color:yellowgreen ;
     width: 290px;
     border-radius: 15px;
@@ -53,6 +60,24 @@ a.menu:hover{
     font-size: 22px;
     margin-bottom: 5px;
     box-shadow: 5px 2px 2px #0a761a;
+}
+#position{
+    color: black;
+    background-color:yellowgreen ;
+    width: 290px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 20px;
+    box-shadow: 5px 2px 2px #0a761a;
+}
+#a4{
+    color: white;
+}
+#da4{
+    height: 20px;
+    border-radius: 0px;
+    background-color: #777777;
 }
 }
               @media (min-width:768px){
