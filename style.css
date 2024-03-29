@@ -1,7 +1,6 @@
              @media (min-width:100px){
 body {
-    background: #3a3a3a;
-    color: white;
+    background: #efefef;
     margin: 0;
 }
 #angl{
@@ -21,7 +20,7 @@ a:hover{
     background-color: #40a1ff;
     border-radius: 12px;
     padding:  7px 12px;    
-    box-shadow:5px 2px 2px blue;
+    box-shadow:5px 2px 2px blue;    
 }
 .lim{
     margin-right: 12px;
@@ -68,28 +67,23 @@ a:hover{
     border-radius: 15px;
     padding: 10px;
     font-size: 22px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     box-shadow: 5px 2px 2px #0a761a;
 }
 #a4{
-    color: white;
+    color: black;
 }
 #da4{
     height: 20px;
     border-radius: 0px;
-    background-color: #777777;
+    background-color: #ffffff;
 }
 }
               @media (min-width:768px){
-#kargl{
-    width: 500px;
-}
+              
 }
               @media (min-width:1024px){
-#kargl{
-    width: 500px;
-    margin: 0;
-}
+
 }
               @media (min-width:1280px){
 
