@@ -1,93 +1,176 @@
-             @media (min-width:100px){
-body {
-    background: #efefef;
-    margin: 0;
+@media (min-width:100px){
+    body {
+        background: #efefef;
+        margin: 0;
+    }
+    #angl{
+        height: 226px;
+        background-image: url('angl.jpg');
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    a.menu{
+        color:blue;
+        text-decoration:none;
+    }
+    a:hover{
+        color: white;
+    }
+    .menudiv{
+        background-color: #40a1ff;
+        border-radius: 12px;
+        padding:  7px 12px;    
+        box-shadow:5px 2px 2px blue;    
+    }
+    .lim{
+        margin-right: 12px;
+    }
+    #pohta{
+        width: 250px;
+        color:blue;
+        background-color: #40a1ff;
+        border-radius: 12px;
+        padding:  7px 12px;    
+        box-shadow:5px 2px 2px blue;
+    }
+    #text1{
+        background:#ffffff99;
+        border-radius: 30px;
+        width: 390px;
+        padding: 10px;
+    }
+    .p{
+        padding-left: 9px;
+        display: inline;
+    }
+    #topmenu {
+        font-size: 1.2rem;
+        list-style-type:none;
+        display: flex;
+        padding-left:16px;
+    }
+    .sss{
+        color: black ;
+        background-color:yellowgreen ;
+        width: 290px;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 22px;
+        margin-bottom: 5px;
+        box-shadow: 5px 2px 2px #0a761a;
+    }
+    #position{
+        color: black;
+        background-color:yellowgreen ;
+        width: 290px;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 22px;
+        margin-top:8px ;    
+        margin-bottom: 20px;
+        box-shadow: 5px 2px 2px #0a761a;
+    }
+    #a4{
+        color: black;
+    }
+    #da4{
+        height: 20px;
+        border-radius: 0px;
+        background-color: #ffffff;
+    }
 }
-#angl{
-    height: 226px;
-    background-image: url('angl.jpg');
-    background-attachment: fixed;
-    background-size: contain;
+@media (min-width:767px){
+    #angl{
+        height: 421px;
+    }
+    #topmenu{
+        padding-left: 38px;
+    }
+    .menudiv{
+        padding: 9px 25spx;
+    }
+    .lim{
+        margin-right: 40px;
+        font-size: 20px;
+    }   
+    #zagolovok{
+        font-size: 20px;
+    }
+    #text1{
+        width: 428px;
+        float:left ;
+        margin-bottom: 5px;
+       font-size: 20px;
+    }
+    #position, .sss{
+        float: right;
+    }
+    #position{
+        margin-bottom: 5px;
+    }
+    #pohta{
+        margin-top: 690px;
+    }
 }
-a.menu{
-    color:blue;
-    text-decoration:none;
+@media (min-width:900px){
+    #angl{
+        height: 490px;
+    }
+    #text1{
+        width: 550px;
+    }
+    #pohta{
+        margin-top: 600px;
+    }
 }
-a:hover{
-    color: white;
+@media (min-width:1023px){
+    #angl{
+        height: 562px;
+    }
+    #text1{
+        width: 670px ;
+        margin-top: 10px;
+        position
+    }
+    #topmenu{
+        display: block;
+        width: max-content;
+        font-size: 0.5rem;
+    }
+    #zagolovok{
+        margin-top: -130px;
+        margin-bottom: 40PX;
+    }
+    #pohta{
+        margin-top: 520px;
+    }
 }
-.menudiv{
-    background-color: #40a1ff;
-    border-radius: 12px;
-    padding:  7px 12px;    
-    box-shadow:5px 2px 2px blue;    
-}
-.lim{
-    margin-right: 12px;
-}
-#pohta{
-    width: 250px;
-    color:blue;
-    background-color: #40a1ff;
-    border-radius: 12px;
-    padding:  7px 12px;    
-    box-shadow:5px 2px 2px blue;
-}
-#text1{
-    background:#ffffff99;
-    border-radius: 30px;
-    width: 390px;
-    padding: 10px;
-    margin-bottom:5px ;    
-}
-.p{
-    padding-left: 9px;
-    display: inline;
-}
-#topmenu {
-    font-size: 1.2rem;
-    list-style-type:none;
-    display: flex;
-    padding-left:16px;
-}
-.sss{
-    color: black ;
-    background-color:yellowgreen ;
-    width: 290px;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 22px;
-    margin-bottom: 5px;
-    box-shadow: 5px 2px 2px #0a761a;
-}
-#position{
-    color: black;
-    background-color:yellowgreen ;
-    width: 290px;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 22px;
-    margin-bottom: 20px;
-    box-shadow: 5px 2px 2px #0a761a;
-}
-#a4{
-    color: black;
-}
-#da4{
-    height: 20px;
-    border-radius: 0px;
-    background-color: #ffffff;
-}
-}
-              @media (min-width:768px){
-              
-}
-              @media (min-width:1024px){
-
-}
-              @media (min-width:1280px){
-
-}
-              @media (min-width:1920px){
-
+@media (min-width:1279px){
+    #angl{
+        background-size: 700px;
+        width: 700px;
+        height: 390px;
+    }
+    #topmenu{
+        display: flex;
+         float: right;
+         margin-top: -340px;
+         margin-right: 50spx;
+    }
+    .lim{
+        margin-right: 60px;
+        font-size: 27px;
+    }
+    #zagolovok{
+        float: right;
+        margin-right: 120px;
+        margin-top: -300px;
+    }
+    #text1{
+        width: 1000px;
+        margin-top: 5px;
+    }
+    #pohta{
+        margin-top: 390px;
+    }
 }
