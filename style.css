@@ -4,8 +4,9 @@
         margin: 0;
     }
     #angl{
-        height: 226px;
+        height: 54vw;
         background-image: url('angl.jpg');
+        background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: contain;
     }
@@ -26,6 +27,7 @@
         margin-right: 12px;
     }
     #pohta{
+        height: 33px;
         width: 250px;
         color:blue;
         background-color: #40a1ff;
@@ -36,7 +38,7 @@
     #text1{
         background:#ffffff99;
         border-radius: 30px;
-        width: 390px;
+        width: 90vw;
         padding: 10px;
     }
     .p{
@@ -52,7 +54,7 @@
     .sss{
         color: black ;
         background-color:yellowgreen ;
-        width: 290px;
+        width: 280px;
         border-radius: 15px;
         padding: 10px;
         font-size: 22px;
@@ -62,12 +64,10 @@
     #position{
         color: black;
         background-color:yellowgreen ;
-        width: 290px;
         border-radius: 15px;
         padding: 10px;
         font-size: 22px;
-        margin-top:8px ;    
-        margin-bottom: 20px;
+        margin-top:8px ;
         box-shadow: 5px 2px 2px #0a761a;
     }
     #a4{
@@ -79,12 +79,23 @@
         background-color: #ffffff;
     }
 }
-@media (min-width:767px){
-    #angl{
-        height: 421px;
+@media (min-width:576px){
+    #text1{
+        width: 93vw;
     }
     #topmenu{
-        padding-left: 38px;
+        margin-left: 16vw;
+    }
+    .lim{
+        margin-right: 5vw;
+    }
+}
+@media (min-width:768px){
+    #topmenu{
+        margin-left: 0px;
+        display: block;
+        width: max-content;
+        font-size: 0.5rem;
     }
     .menudiv{
         padding: 9px 25spx;
@@ -95,38 +106,51 @@
     }   
     #zagolovok{
         font-size: 20px;
+        margin-top: -15vw;
+        margin-bottom:6vw ;
     }
     #text1{
-        width: 418px;
+        width: 54vw;
         float:left ;
         margin-bottom: 5px;
-       font-size: 20px;
+        font-size: 20px;
     }
-    #position, .sss{
+    .sss{
         float: right;
-    }
-    #position{
-        margin-bottom: 5px;
+        margin-right: 10px;
     }
     #pohta{
-        margin-top: 690px;
+        margin-top: 700px;
+    }
+}
+@media (min-width:882px){
+    #pohta{
+        margin-top: 625px;
     }
 }
 @media (min-width:900px){
+    #topmenu{
+         float: right;
+         margin-top: -26vw;
+         margin-right: 30vw;
+    }
+    #zagolovok{
+        margin-top: -7px;
+        margin-bottom: 0px;
+    }
     #angl{
-        height: 490px;
+        background-size:50vw ;
+        width: 50vw;
+        height: 28vw;
     }
     #text1{
-        width: 550px;
+        width: 550px;   
     }
     #pohta{
         margin-top: 600px;
     }
 }
-@media (min-width:1023px){
-    #angl{
-        height: 562px;
-    }
+@media (min-width:1024px){
     #text1{
         width: 670px ;
         margin-top: 10px;
@@ -138,24 +162,17 @@
         font-size: 0.5rem;
     }
     #zagolovok{
-        margin-top: -130px;
-        margin-bottom: 40PX;
+        margin-top: -13vw;
+        margin-bottom: 40px;
+        margin-left: 54vw;
     }
     #pohta{
-        margin-top: 520px;
+        margin-top: 540px;
     }
 }
-@media (min-width:1279px){
-    #angl{
-        background-size: 700px;
-        width: 700px;
-        height: 390px;
-    }
+@media (min-width:1199px){
     #topmenu{
-        display: flex;
          float: right;
-         margin-top: -340px;
-         margin-right: 50spx;
     }
     .lim{
         margin-right: 60px;
@@ -163,8 +180,7 @@
     }
     #zagolovok{
         float: right;
-        margin-right: 120px;
-        margin-top: -300px;
+        margin-right: 10vw;
     }
     #text1{
         width: 1000px;
