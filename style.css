@@ -70,6 +70,12 @@
         margin-top:8px ;
         box-shadow: 5px 2px 2px #0a761a;
     }
+    summary{
+        font-weight: 800;
+    }
+    details a{
+        color: black;
+    }
     #a4{
         color: black;
     }
