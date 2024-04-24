@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+     <head>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="style.css">
+          <title>Сайт для ИП</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+     <body>
+          <div>
+               <ul>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом I_Безденежных_Колобова.pdf">диплом I_Безденежных_Колобова</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом II_Кемайкина_Гущина.pdf">диплом II_Кемайкина_Гущина</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом II_Панов.pdf">диплом II_Панов</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом II_Таращенко.pdf">диплом II_Таращенко</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом III_Куликова_Емельянов.pdf">диплом III_Куликова_Емельянов</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом III_Мальковский_Самусенко.pdf">диплом III_Мальковский_Самусенко</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом III_Носкова.pdf">диплом III_Носкова</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом III_Орехова.pdf">диплом III_Орехова</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом III_Островерхая.pdf">диплом III_Островерхая</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом III_Тошерев.pdf">диплом III_Тошерев</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Акбердин_Трякин.pdf">диплом участника_Акбердин_Трякин</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Акчурин_Бабаянц.pdf">диплом участника_Акчурин_Бабаянц</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Биккиняева_Ткаченко.pdf">диплом участника_Биккиняева_Ткаченко</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Горбацкий.pdf">диплом участника_Горбацкий</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Иванова.pdf">диплом участника_Иванова</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Лапшин_Игошин.pdf">диплом участника_Лапшин_Игошин</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Муасуэс_Виноградова.pdf">диплом участника_Муасуэс_Виноградова</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Панфилова.pdf">диплом участника_Панфилова</a></li>
+                    <li><a href="2024_Дипломы_ Me and My Profession/диплом участника_Плюхина_Мещерякова.pdf">диплом участника_Плюхина_Мещерякова</a></li>
+               </ul>
+          </div>
+     </bodу>
+</html>
