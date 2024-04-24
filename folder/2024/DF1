@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+     <head>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="style.css">
+          <title>Сайт для ИП</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+     <body>
+          <div>
+               <ul>
+                    <li><a href="Фото_Конкурс/photo_2024-03-18_14-47-17.jpg">photo_2024-03-18_14-47-17</a></li>
+                    <li><a href="Фото_Конкурс/photo_2024-03-18_14-47-54.jpg">photo_2024-03-18_14-47-54</a></li>
+                    <li><a href="Фото_Конкурс/photo_2024-03-18_14-48-00.jpg">photo_2024-03-18_14-48-00</a></li>
+                    <li><a href="Фото_Конкурс/photo_2024-03-18_14-48-06.jpg">photo_2024-03-18_14-48-06</a></li>
+                    <li><a href="Фото_Конкурс/photo_2024-03-18_14-48-13.jpg">photo_2024-03-18_14-48-13</a></li>
+                    <li><a href="Фото_Конкурс/photo_2024-03-18_14-48-19.jpg">photo_2024-03-18_14-48-19</a></li>
+                    <li><a href="Фото_Конкурс/photo_2024-03-18_14-49-55.jpg">photo_2024-03-18_14-49-55</a></li>
+               </ul>
+          </div>
+     </bodу>
+</html>
