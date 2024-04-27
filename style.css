@@ -51,7 +51,7 @@
         border-width: 2px;
         border-style: solid;
         border-color: #505050;
-        margin: 0 4px;
+        margin: 0 1vw;
     }
     .lim:hover{
         box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
@@ -65,7 +65,7 @@
         background-image: linear-gradient(90deg,#ff0180, rgb(255, 0, 0), rgb(255, 196, 0), rgb(208, 255, 0), rgb(53, 255, 2), rgb(0, 174, 255), rgb(0, 47, 255), rgb(234, 0, 255) );
         -webkit-background-clip: text;
         background-clip: text;
-        background-size: 355px 355px;
+        background-size: 79vw 79vw;
         background-position: 0 0;
         animation: bp 2s infinite linear;
     }
@@ -78,10 +78,10 @@
         border-color: #f77519;
     }
     .zgl{
-        margin-top: 25px;
+        margin-top: 35px;
     }
     #zgl-1{
-        margin-top: 0;
+        margin-top: -5px;
     }
     #text1{
         background:rgb(61, 61, 61);
@@ -98,7 +98,8 @@
         border-style:dotted none ;
         border-radius:10px;
         border-width: 1px;
-        border-color: #f77519;}
+        border-color: #f77519;
+    }
     .p{
         padding-left: 9px;
         display: inline;
@@ -151,114 +152,81 @@
         padding:  7px 12px;
     }
 }
-/*
 @media (min-width:576px){
-    #text1{
-        width: 93vw;
-    }
-    #topmenu{
-        margin-left: 16vw;
+    #fix-menu{
+        height: 35px;
+        margin-top: -40px;
     }
     .lim{
-        margin-right: 5vw;
+        height: 30px;
+        width: 90px;
+        margin: 0 1vw 0 0;
+    }
+    #topmenu{
+        text-align: left;
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .menudiv{
+        margin-top:6px;
+        text-align: center;
+    }
+    #zagolovok{
+        font-size: 10px;
+        position: fixed;
+        float: right;
+        margin: -50px 0 0 345px;
+        background-size: 200px 200px;
+        text-decoration-thickness: 3px;
+    }
+    #text1{
+        margin-top: 40px;
     }
 }
 @media (min-width:768px){
-    #topmenu{
-        margin-left: 0px;
-        display: block;
-        width: max-content;
-        font-size: 0.5rem;
-    }
-    .menudiv{
-        padding: 9px 25spx;
+    #fix-menu{
+        height: 45px;
+        margin-top: -55px;
     }
     .lim{
-        margin-right: 40px;
-        font-size: 20px;
-    }   
+        height: 35px;
+        width: 100px;
+        margin: 0 2vw 0 0;
+        padding: 3px;
+    }
+    #topmenu{
+        font-size: 18px;
+    }
+    .menudiv{
+        margin-top:9px;
+    }
     #zagolovok{
-        font-size: 20px;
-        margin-top: -15vw;
-        margin-bottom:6vw ;
+        font-size: 17px;
+        margin: -80px 0 0 410px;
+        background-size: 42vw 42vw;
+    }
+    #text{
+        text-align: left;
+        margin-left: 5px;
     }
     #text1{
-        width: 54vw;
-        float:left ;
-        margin-bottom: 5px;
-        font-size: 20px;
+        width:54vw ;
+        margin-top: 55px;
     }
-    .sss{
+    #win-sss{
         float: right;
-        margin-right: 10px;
-    }
-    #pohta{
-        margin-top: 700px;
+        margin-top: -680px;
     }
 }
 @media (min-width:882px){
-    #pohta{
-        margin-top: 625px;
-    }
+
 }
 @media (min-width:900px){
-    #topmenu{
-         float: right;
-         margin-top: -26vw;
-         margin-right: 30vw;
-    }
-    #zagolovok{
-        margin-top: -7px;
-        margin-bottom: 0px;
-    }
-    #angl{
-        background-size:50vw ;
-        width: 50vw;
-        height: 28vw;
-    }
-    #text1{
-        width: 550px;   
-    }
-    #pohta{
-        margin-top: 600px;
-    }
+
 }
 @media (min-width:1024px){
-    #text1{
-        width: 670px ;
-        margin-top: 10px;
-    }
-    #topmenu{
-        width: max-content;
-        font-size: 0.5rem;
-    }
-    #zagolovok{
-        margin-top: -13vw;
-        margin-bottom: 40px;
-        margin-left: 54vw;
-    }
-    #pohta{
-        margin-top: 540px;
-    }
+
 }
 @media (min-width:1199px){
-    #topmenu{
-         float: right;
-    }
-    .lim{
-        margin-right: 60px;
-        font-size: 27px;
-    }
-    #zagolovok{
-        float: right;
-        margin-right: 10vw;
-    }
-    #text1{
-        width: 1000px;
-        margin-top: 5px;
-    }
-    #pohta{
-        margin-top: 390px;
-    }
+
 }
-*/
