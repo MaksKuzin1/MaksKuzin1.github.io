@@ -1,87 +1,123 @@
-@media (min-width:100px){
-    body::-webkit-scrollbar {
-        width: 9px;         
+@media (min-width: 100px){
+    body{
+        font-family: arial;
+        margin: 0; 
+        color:rgb(254, 254, 254);
     }
-    body::-webkit-scrollbar-track {
-        background: rgb(61, 61, 61);     
-    }
-    body::-webkit-scrollbar-thumb {
-        background-color: blue;   
-        border-radius: 20px;       
-        border: 3px solid rgb(0, 225, 255);  
-    }
-    body {
-        background: #252525;
-        margin: 0;
-        color: white;
-        font-family: -apple-system,BlinkMacSystemFont,Open Sans,Roboto,Helvetica Neue,Helvetica,sans-serif;
+    .str1{
+        background-image: url("img/doska.jpg");
+        background-size:cover;
+        width: 100vw;
+        height: 91vh;
     }
     a{
-        color:white;
+        color: rgb(254, 254, 254);
         text-decoration: none;
+    }
+    #ul-menu{
+        font-size: 1.2rem;
+        padding:0;
+        margin: 0;
+        text-align: center;
+    }
+    .li-menu{
+        display: inline-block;
+        margin: 0 20px;
+    }
+    .a-div{
+        padding: 5px 0;
+        width: 115px;
+        margin-top: 8px;
+        border-width: 2px;
+        border-style: solid;
+        border-color:rgb(254, 254, 254); 
+        border-radius: 30px;
+    }
+    a.li-menu{
+        text-decoration:none;
     }
     a:hover{
         color:#f77519;
-        text-decoration: underline;
     }
-    #fix-menu{
+    .title{
+        font-family:SEGOE PRINT;
+        text-align: center;
+    }
+    h2{
+        font-family:SEGOE PRINT;
+    }
+    .text1{
         width: 100vw;
-        height: 50px;
-        background-color: rgb(61, 61, 61);
-        position: fixed;
-        margin-top: -50px;
-        padding: 0;
+        height: 64vh;
+        margin-top: -10px;
+        position: absolute;
+        font-size: 2vh;
     }
-    #topmenu {
-        font-size: 1.2rem;
-        padding-left:0;
-        margin-top: 0;
+    .blok11{
+        margin: 0 10px;
     }
-    a.menu{
-        text-decoration:none;
+    .jpg11{
+        background-image: url("img/programmist.PNG");
+        background-size:cover;
+        width:47vw;
+        height: 23vh;
+        float: left;
+        border-radius: 17px 0 0 17px;
     }
-    .menudiv{
-        margin-top: 13px;
+    .text11{
+        background-color: rgba(3, 28, 255, 0.253);
+        width:47vw;
+        height: 34vh;
+        float: left;
+        border-radius: 0 17px 17px 0;
     }
-    .lim{
-        display: inline-block;
-        height: 45px;
-        width: 115px;
-        border-radius: 3px;
-        border-width: 2px;
-        border-style: solid;
-        border-color: #505050;
-        margin: 0 1vw;
+    .blok12{
+        margin: 0 10px;
+        margin-top: 1vh;
     }
-    .lim:hover{
-        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    .text12{
+        background-color: rgba(3, 28, 255, 0.253);
+        width:47vw;
+        height: 34vh;
+        float: left;
+        margin-top: -7vh;
+        border-radius: 17px 0 0 17px;
     }
-    #zagolovok{
-        margin-top: 50px;
-        text-decoration: underline;
-        text-decoration-thickness: 4px ;
-        text-decoration-color:#f77519;
-        color: transparent;
-        background-image: linear-gradient(90deg,#ff0180, rgb(255, 0, 0), rgb(255, 196, 0), rgb(208, 255, 0), rgb(53, 255, 2), rgb(0, 174, 255), rgb(0, 47, 255), rgb(234, 0, 255) );
-        -webkit-background-clip: text;
-        background-clip: text;
-        background-size: 350px 350px;
-        background-position: center;
-        animation: bp 2s infinite linear;
+    .jpg12{
+        background-image: url("img/stroitel.PNG");
+        background-size:cover;
+        width:47vw;
+        height: 23vh;
+        float: left;
+        margin-top: 4vh;
+        border-radius: 0 17px 17px 0;
     }
-    .zgl h2{
-        width:fit-content;
-        padding: 0 12px;
-        border-style:none dotted dotted;
-        border-radius:10px;
-        border-width: 2px;
-        border-color: #f77519;
+    .str2{
+        width: 100vw;
+        height: min-content;
+    }
+    .jpg21{
+        background-image: url("img/professii.PNG");
+        background-size: cover;
+        width: 100vw;
+        height: 55vw;
+        margin-top: -1px;
+    }
+    .text21{
+        font-family:SEGOE PRINT;
+        font-size: 6vw;
+        float: left;
+        margin: -15vh 5vw 0 5vw;
+    }
+    .str3{
+        background-color: rgba(0, 0, 0, 0.199);
+        color: #444343;
+        width: 100vw;
+        height: min-content;
+        padding: 3vh 0;
     }
     .zgl{
-        margin-top: 35px;
-    }
-    #zgl-1{
-        margin-top: -5px;
+        margin-top: 5vh;
     }
     #text1{
         background:rgb(61, 61, 61);
@@ -104,13 +140,20 @@
         padding-left: 9px;
         display: inline;
     }
+    .str4{
+        background-color: rgba(0, 0, 0, 0.445);
+        padding-top: 5px;
+        color: #444343;
+        width: 100vw;
+        height: min-content;
+    }
     .sss{
-        background-color:rgb(61, 61, 61) ;
+        background-color:rgba(254, 254, 254, 0.486) ;
         width: 280px;
         border-radius: 3px;
         padding: 10px;
         font-size: 15px;
-        margin-bottom: 5px;
+        margin: 5px;
         border-style: solid;
         border-width: 2px;
         border-color: #f77519;
@@ -125,7 +168,7 @@
         text-decoration-color:#f77519;
     }
     .doc{
-        background-color:#505050;
+        background-color:#5e5e5e;
         width: fit-content;
         margin:5px;
         padding: 0 5px;
@@ -143,173 +186,31 @@
         background-position: 0 0;
         animation: bp 2s infinite linear;
     }
+    .text42{
+        width: 100vw;
+        height: min-content;
+        background-image: url("img/haker.PNG");
+        background-size: cover  ;
+    }
     #ps{
-        width: 280px;
-        background:rgb(61, 61, 61);
-        border-radius: 20px;
-        border-width: 3px;
-        border-style: solid;
-        margin: 10px 0;
+        width: 96vw;
+        height: 68vw;
+        background-color:rgba(3, 3, 3, 0.541);
+        color: rgb(254, 254, 254);
+        margin-top: 10px;
         padding: 7px;
     }
     #ps big{
         color: red;
     }
     #pohta{
-        height: 33px;
-        width: 250px;
-        color:white;
-        background-color:rgb(61, 61, 61) ;
+        height: 7vh;
+        width: 77vw;
+        background-color:rgb(255, 0, 0) ;
         border-radius: 14px;
         padding:  7px 12px;
     }
-}
-@media (min-width:576px){
-    #fix-menu{
-        height: 35px;
-        margin-top: -40px;
-    }
-    .lim{
-        height: 30px;
-        width: 90px;
-        margin: 0 1vw 0 0;
-    }
-    #topmenu{
-        text-align: left;
-        font-size: 15px;
-        margin-left: 5px;
-    }
-    .menudiv{
-        margin-top:6px;
-        text-align: center;
-    }
-    #zagolovok{
-        font-size: 10px;
-        position: fixed;
-        float: right;
-        margin: -50px 0 0 345px;
-        background-size: 200px 200px;
-        text-decoration-thickness: 3px;
-    }
-    #text1{
-        margin-top: 40px;
-    }
-}
-@media (min-width:768px){
-    #fix-menu{
-        height: 45px;
-        margin-top: -55px;
-    }
-    .lim{
-        height: 35px;
-        width: 100px;
-        margin: 0 2vw 0 0;
-        padding: 3px;
-    }
-    #topmenu{
-        font-size: 18px;
-    }
-    .menudiv{
-        margin-top:9px;
-    }
-    #zagolovok{
-        font-size: 17px;
-        margin: -80px 0 0 430px;
-        background-size: 345px 345px;
-    }
-    #text{
-        text-align: left;
-        margin-left: 5px;
-    }
-    #text1{
-        width:54vw ;
-        margin-top: 55px;
-    }
-    #win-sss{
-        float: right;
-        margin-top: -680px;
-    }
-    #pohta{
-        margin-left: -350px;
-    }
-}
-@media (min-width:882px){
-    #text1{
-        width: 60vw;
-    }
-    .lim{
-        margin: 0 2vw ;
-    }
-    #zagolovok{
-        margin: -80px 0 0 500px;
-    }
-}
-@media (min-width:901px){
-    #win-sss{
-        margin-top: -665px;
-    }
-}
-@media (min-width:902px){
-    #win-sss{
-        margin-top: -650px;
-    }
-}
-@media (min-width:925px){
-    #win-sss{
-        margin-top: -635px;
-    }
-    #zagolovok{
-        margin: -80px 0 0 570px;
-    }
-    .lim{
-        margin: 0 2vw ;
-        padding-left:7px ;
-        padding-right:7px ;
-    }
-    #text1{
-        width: 62vw;
-    }
-}
-@media (min-width:983px){
-    #win-sss{
-        margin-top: -620px;
-    }
-}
-@media (min-width:1024px){
-    #zagolovok{
-        margin: -80px 0 0 630px;
-    }
-    #text{
-        margin-left: 30px;
-    }
-    #text1{
-        width: 636px;
-    }
-    #pohta{
-        margin-left: -35%;
-    }
-}
-@media (min-width:1366px){
-    #zagolovok{
-        margin: -80px 0 0 1000px;
-    }
-    #topmenu{
-        margin-left:330px ;
-    }
-    .lim{
-        margin: 0 1vw ;
-    }
-    #text{
-        margin-left: 17%;
-    }
-    #text1{
-        width: 55%;
-    }
-    #win-sss{
-        width: 17%;
-        margin-right: 17%;
-    }
-    #pohta{
-        margin-left: -20%;
+    #pohta a{
+        color: rgb(255, 255, 255);
     }
 }
